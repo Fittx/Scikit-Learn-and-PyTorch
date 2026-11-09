@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.jpg" alt="Loopy logo" width="240">
+  <img src="logo.jpg" alt="Loopy logo" width="440">
 </p>
 
 # Hands-On Machine Learning with Scikit-Learn and PyTorch
