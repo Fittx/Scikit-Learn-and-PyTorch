@@ -5,8 +5,8 @@
 # Hands-On Machine Learning with Scikit-Learn and PyTorch
 
 > [!NOTE]
-> **Book Started:** DD/MM/YYYY  
-> **Target Finish:** DD/MM/YYYY  
+> **Book Started:** 09/11/2026  
+> **Target Finish:** 01/05/2027  
 > **Status:** 🟡 In Progress
 
 ## Table of Contents
@@ -57,10 +57,10 @@ Here I keep track of all the exercises and contents I learn while reading the bo
 
 | Item | Details |
 | ---- | ------- |
-| **Goal** | [e.g., build a solid ML + deep learning foundation and apply it to my own projects] |
-| **Schedule** | [e.g., 1 hour/day, Mon–Fri] |
+| **Goal** | Build a solid ML + deep learning foundation and apply it to my own projects|
+| **Schedule** | 3 hours/day, Mon–Fri (Except Wed) |
 | **Method** | Read → Take notes → Run the code in Colab → Do the exercises → Review |
-| **Review cadence** | [e.g., every Sunday] |
+| **Review cadence** | Every Sunday |
 | **Book code** | [Official book repository](https://github.com/ageron/handson-mlp) |
 
 ## Progress
@@ -582,7 +582,7 @@ Each chapter links to its own **notes** and **exercises**:
 
 | Date | Time Spent | What I Covered | Notes / Blockers |
 | ---- | ---------- | -------------- | ---------------- |
-| DD/MM/YYYY | 1h | Chapter 1 – What Is Machine Learning? | — |
+| 09/11/2026 | 2h | Chapter 1 – What Is Machine Learning? | — |
 | | | | |
 
 ## Repository Structure
@@ -659,4 +659,4 @@ Here I will leave my conclusions once I finish the book.
 
 ---
 
-<p align="center">Last updated: DD/MM/YYYY</p>
+<p align="center">Last updated: 09/11/2026</p>
