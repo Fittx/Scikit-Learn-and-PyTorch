@@ -65,7 +65,7 @@ Here I keep track of all the exercises and contents I learn while reading the bo
 
 ## Progress
 
-**Overall:** `0 / 19` chapters completed (`0%`)
+**Overall:** `1 / 19` chapters completed (`5%`)
 
 | Legend | Meaning |
 | ------ | ------- |
@@ -78,33 +78,33 @@ Each chapter links to its own **notes** and **exercises**:
 
 #### Chapter 1: The Machine Learning Landscape
 
-📝 [Notes](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2001%20-%20The%20Machine%20Learning%20Landscape/notes.md) · 💻 [Exercises](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2001%20-%20The%20Machine%20Learning%20Landscape/exercises.ipynb) · 
+📝 [Notes](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2001%20-%20The%20Machine%20Learning%20Landscape/notes.md) · 💻 [Exercises](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2001%20-%20The%20Machine%20Learning%20Landscape/exercises.ipynb) · ✔️ Completed
 
-- [✔️] **What Is Machine Learning?**
-- [✔️] **Why Use Machine Learning?**
-- [✔️] **Examples of Applications**
-- [✔️] **Types of Machine Learning Systems**
-  - [ ] Training Supervision
-  - [ ] Batch Versus Online Learning
-  - [ ] Instance-Based Versus Model-Based Learning
-- [✔️] **Main Challenges of Machine Learning**
-  - [ ] Insufficient Quantity of Training Data
-  - [ ] Nonrepresentative Training Data
-  - [ ] Poor-Quality Data
-  - [ ] Irrelevant Features
-  - [ ] Overfitting the Training Data
-  - [ ] Underfitting the Training Data
-  - [ ] Deployment Issues
-  - [ ] Stepping Back
-- [✔️] **Testing and Validating**
-  - [ ] Hyperparameter Tuning and Model Selection
-  - [ ] Data Mismatch
-- [✔️] **Exercises**
-- [✔️] **Notes written**
+- [x] **What Is Machine Learning?**
+- [x] **Why Use Machine Learning?**
+- [x] **Examples of Applications**
+- [x] **Types of Machine Learning Systems**
+  - [x] Training Supervision
+  - [x] Batch Versus Online Learning
+  - [x] Instance-Based Versus Model-Based Learning
+- [x] **Main Challenges of Machine Learning**
+  - [x] Insufficient Quantity of Training Data
+  - [x] Nonrepresentative Training Data
+  - [x] Poor-Quality Data
+  - [x] Irrelevant Features
+  - [x] Overfitting the Training Data
+  - [x] Underfitting the Training Data
+  - [x] Deployment Issues
+  - [x] Stepping Back
+- [x] **Testing and Validating**
+  - [x] Hyperparameter Tuning and Model Selection
+  - [x] Data Mismatch
+- [x] **Exercises**
+- [x] **Notes written**
 
 #### Chapter 2: End-to-End Machine Learning Project
 
-📝 [Notes](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2002%20-%20End-to-End%20Machine%20Learning%20Project/notes.md) · 💻 [Exercises](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2002%20-%20End-to-End%20Machine%20Learning%20Project/exercises.ipynb) 👈 Current chapter
+📝 [Notes](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2002%20-%20End-to-End%20Machine%20Learning%20Project/notes.md) · 💻 [Exercises](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2002%20-%20End-to-End%20Machine%20Learning%20Project/exercises.ipynb) · 👈 Current chapter
 
 - [ ] **Working with Real Data**
 - [ ] **Look at the Big Picture**
@@ -583,6 +583,7 @@ Each chapter links to its own **notes** and **exercises**:
 | Date | Time Spent | What I Covered | Notes / Blockers |
 | ---- | ---------- | -------------- | ---------------- |
 | 09/11/2026 | 2h | Chapter 1 – What Is Machine Learning? | — |
+| 10/11/2026 | — | Chapter 1 – Notes + 19 exercises | Scored 11/19 (58%). Review Q8, 10, 12, 13, 18, 19. |
 | | | | |
 
 ## Repository Structure
@@ -638,7 +639,11 @@ Each chapter links to its own **notes** and **exercises**:
 
 **Chapters 1–3**
 
-- **[Concept]** — [one-line explanation in my own words]
+- **Supervised learning** — training a model on labeled data (input + expected output), e.g. classification and regression.
+- **Unsupervised learning** — finding patterns in unlabeled data, e.g. clustering, anomaly detection, dimensionality reduction.
+- **Batch vs online learning** — batch trains on all data at once and goes offline; online learns incrementally from a stream of data.
+- **Instance-based vs model-based** — instance-based memorizes examples and uses similarity; model-based builds a model and uses it to predict.
+- **Overfitting vs underfitting** — overfitting does well on training data but generalizes poorly; underfitting is too simple to capture the pattern.
 
 **Chapters 4–8**
 
@@ -650,8 +655,12 @@ Each chapter links to its own **notes** and **exercises**:
 
 ## Challenges & Open Questions
 
-- [ ] [Something I didn't fully understand — revisit later]
-- [x] [Resolved question → answer or link]
+- [ ] **Q8** — Spam detection: supervised vs unsupervised framing? (got semi-supervised)
+- [ ] **Q10** — What is out-of-core learning?
+- [ ] **Q12** — Difference between a model parameter and a hyperparameter?
+- [ ] **Q13** — What do model-based algorithms search for, and how do they predict?
+- [ ] **Q18** — What is the train-dev set and when is it needed?
+- [ ] **Q19** — What goes wrong if you tune hyperparameters on the test set?
 
 ## Conclusions
 
@@ -659,4 +668,4 @@ Here I will leave my conclusions once I finish the book.
 
 ---
 
-<p align="center">Last updated: 09/11/2026</p>
+<p align="center">Last updated: 10/11/2026</p>
