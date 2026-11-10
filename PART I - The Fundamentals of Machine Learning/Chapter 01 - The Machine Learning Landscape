@@ -1,0 +1,342 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Fittx/Scikit-Learn-and-PyTorch/blob/main/PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2001%20-%20The%20Machine%20Learning%20Landscape\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "9b_IC3SwOsiN"
+      },
+      "source": [
+        "# Chapter 1 Exercises: The Machine Learning Landscape"
+      ],
+      "id": "9b_IC3SwOsiN"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "dx_xcul0OsiZ"
+      },
+      "source": [
+        "## Question 1\n",
+        "**How would you define machine learning?**\n",
+        "\n",
+        "**My answer:** Machine learning is when use data to train a model and relays that task to operates as autonomously based on the algorithm. Essentially, learn data and do specific task."
+      ],
+      "id": "dx_xcul0OsiZ"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "j7uf555ZOsib"
+      },
+      "source": [
+        "## Question 2\n",
+        "**Can you name four types of applications where it shines?**\n",
+        "\n",
+        "**My answer:** spam filter, fight cancer, make predictions, and classifying things to find an object."
+      ],
+      "id": "j7uf555ZOsib"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "PoVWvjOnOsic"
+      },
+      "source": [
+        "## Question 3\n",
+        "**What is a labeled training set?**\n",
+        "\n",
+        "**My answer:** labeled or supervised is a type of data that is flagged and to be categorized as the input data."
+      ],
+      "id": "PoVWvjOnOsic"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "WQhfDINMOsie"
+      },
+      "source": [
+        "## Question 4\n",
+        "**What are the two most common supervised tasks?**\n",
+        "\n",
+        "**My answer:** classification and regression"
+      ],
+      "id": "WQhfDINMOsie"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "k8o8-rreOsig"
+      },
+      "source": [
+        "## Question 5\n",
+        "**Can you name four common unsupervised tasks?**\n",
+        "\n",
+        "**My answer:** clustering, matrix, and idkk"
+      ],
+      "id": "k8o8-rreOsig"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "1RUm5CeoOsii"
+      },
+      "source": [
+        "## Question 6\n",
+        "**What type of algorithm would you use to allow a robot to walk in various unknown terrains?**\n",
+        "\n",
+        "**My answer:** reinforcement learning"
+      ],
+      "id": "1RUm5CeoOsii"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ibmTRfH6Osij"
+      },
+      "source": [
+        "## Question 7\n",
+        "**What type of algorithm would you use to segment your customers into multiple groups?**\n",
+        "\n",
+        "**My answer:** unsupervised learning"
+      ],
+      "id": "ibmTRfH6Osij"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "cwCR4H4VOsim"
+      },
+      "source": [
+        "## Question 8\n",
+        "**Would you frame the problem of spam detection as a supervised learning problem or an unsupervised learning problem?**\n",
+        "\n",
+        "**My answer:** semi-supervise because some parts of the email can detect with the contents and use similar details to flag the problem."
+      ],
+      "id": "cwCR4H4VOsim"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "jNWdC4ObOsin"
+      },
+      "source": [
+        "## Question 9\n",
+        "**What is an online learning system?**\n",
+        "\n",
+        "**My answer:** It is when we train data sequentially and the training can be on the fly so that it is much more efficient. basically like live training on the fly unlike batches where it has scheduled to update the model."
+      ],
+      "id": "jNWdC4ObOsin"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "j1LxZQChOsio"
+      },
+      "source": [
+        "## Question 10\n",
+        "**What is out-of-core learning?**\n",
+        "\n",
+        "**My answer:** no idea"
+      ],
+      "id": "j1LxZQChOsio"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Yrb0yFCjOsip"
+      },
+      "source": [
+        "## Question 11\n",
+        "**What type of algorithm relies on a similarity measure to make predictions?**\n",
+        "\n",
+        "**My answer:** instance-based learning"
+      ],
+      "id": "Yrb0yFCjOsip"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "HMb2GJefOsit"
+      },
+      "source": [
+        "## Question 12\n",
+        "**What is the difference between a model parameter and a model hyperparameter?**\n",
+        "\n",
+        "**My answer:** model parameter is when you have to choose which model to train is the most better while the hypermeter is a fine tuning to avoid errors?"
+      ],
+      "id": "HMb2GJefOsit"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "PRn58L95Osiu"
+      },
+      "source": [
+        "## Question 13\n",
+        "**What do model-based algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?**\n",
+        "\n",
+        "**My answer:** *(no answer)*"
+      ],
+      "id": "PRn58L95Osiu"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "jD822fXpOsiu"
+      },
+      "source": [
+        "## Question 14\n",
+        "**Can you name four of the main challenges in machine learning?**\n",
+        "\n",
+        "**My answer:** insufficient quality data, non representative data, poor quality data, and irrelevant features."
+      ],
+      "id": "jD822fXpOsiu"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Doyw2Yr0Osiv"
+      },
+      "source": [
+        "## Question 15\n",
+        "**If your model performs great on the training data but generalizes poorly to new instances, what is happening? Can you name three possible solutions?**\n",
+        "\n",
+        "**My answer:** it just means that your model is overfitting since it fails to accommodate data that are new and outside of the test data. i forgot solution."
+      ],
+      "id": "Doyw2Yr0Osiv"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "2OGTez7oOsiv"
+      },
+      "source": [
+        "## Question 16\n",
+        "**What is a test set, and why would you want to use it?**\n",
+        "\n",
+        "**My answer:** we need test set to determine if the model is going to be functioned as intended. if it outputs an accurate response."
+      ],
+      "id": "2OGTez7oOsiv"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "DkfRumjkOsiw"
+      },
+      "source": [
+        "## Question 17\n",
+        "**What is the purpose of a validation set?**\n",
+        "\n",
+        "**My answer:** validation is for checking if the model is accurate."
+      ],
+      "id": "DkfRumjkOsiw"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "M64MPL31Osiw"
+      },
+      "source": [
+        "## Question 18\n",
+        "**What is the train-dev set, when do you need it, and how do you use it?**\n",
+        "\n",
+        "**My answer:** i really dont know."
+      ],
+      "id": "M64MPL31Osiw"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "RSBb4jTCOsiw"
+      },
+      "source": [
+        "## Question 19\n",
+        "**What can go wrong if you tune hyperparameters using the test set?**\n",
+        "\n",
+        "**My answer:** i dont aswell"
+      ],
+      "id": "RSBb4jTCOsiw"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "oUixulFCOsix"
+      },
+      "source": [
+        "## Machine Learning Exercise Report\n",
+        "\n",
+        "### 11/19\n",
+        "\n",
+        "**Estimated Score:** 58%\n",
+        "\n",
+        "| No. | Topic | Result |\n",
+        "| --- | --- | --- |\n",
+        "| 1 | Definition of Machine Learning | Partial |\n",
+        "| 2 | ML Applications | Correct |\n",
+        "| 3 | Labeled Training Set | Partial |\n",
+        "| 4 | Supervised Learning Tasks | Correct |\n",
+        "| 5 | Unsupervised Learning Tasks | Partial |\n",
+        "| 6 | Reinforcement Learning | Correct |\n",
+        "| 7 | Customer Segmentation | Correct |\n",
+        "| 8 | Spam Detection | Incorrect |\n",
+        "| 9 | Online Learning | Correct |\n",
+        "| 10 | Out-of-Core Learning | Incorrect |\n",
+        "| 11 | Instance-Based Learning | Correct |\n",
+        "| 12 | Parameters vs. Hyperparameters | Incorrect |\n",
+        "| 13 | Model-Based Learning | Incorrect |\n",
+        "| 14 | ML Challenges | Partial |\n",
+        "| 15 | Overfitting | Partial |\n",
+        "| 16 | Test Set | Partial |\n",
+        "| 17 | Validation Set | Partial |\n",
+        "| 18 | Train-Dev Set | Incorrect |\n",
+        "| 19 | Hyperparameter Tuning | Incorrect |\n",
+        "\n",
+        "**Legend:** Correct = 1 point, Partial = 0.5 point, Incorrect = 0 points.\n",
+        "\n",
+        "**Priority for Review:** Questions 8, 10, 12, 13, 18, and 19.\n",
+        "\n",
+        "### Strengths\n",
+        "- Understands supervised and unsupervised learning fundamentals.\n",
+        "- Correctly identifies classification and regression.\n",
+        "- Understands reinforcement learning and clustering.\n",
+        "- Familiar with online learning and instance-based learning.\n",
+        "- Can identify overfitting.\n",
+        "\n",
+        "### Areas for Improvement\n",
+        "- Labeled training data and semi-supervised learning.\n",
+        "- Unsupervised learning tasks.\n",
+        "- Out-of-core learning.\n",
+        "- Model parameters vs. hyperparameters.\n",
+        "- Model-based learning and optimization.\n",
+        "- Training, validation, train-dev, and test sets."
+      ],
+      "id": "oUixulFCOsix"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
