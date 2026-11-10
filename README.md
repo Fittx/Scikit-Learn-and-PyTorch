@@ -78,16 +78,16 @@ Each chapter links to its own **notes** and **exercises**:
 
 #### Chapter 1: The Machine Learning Landscape
 
-📝 [Notes](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2001%20-%20The%20Machine%20Learning%20Landscape/notes.md) · 💻 [Exercises](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2001%20-%20The%20Machine%20Learning%20Landscape/exercises.ipynb) · 👈 Current chapter
+📝 [Notes](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2001%20-%20The%20Machine%20Learning%20Landscape/notes.md) · 💻 [Exercises](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2001%20-%20The%20Machine%20Learning%20Landscape/exercises.ipynb) · 
 
-- [ ] **What Is Machine Learning?**
-- [ ] **Why Use Machine Learning?**
-- [ ] **Examples of Applications**
-- [ ] **Types of Machine Learning Systems**
+- [✔️] **What Is Machine Learning?**
+- [✔️] **Why Use Machine Learning?**
+- [✔️] **Examples of Applications**
+- [✔️] **Types of Machine Learning Systems**
   - [ ] Training Supervision
   - [ ] Batch Versus Online Learning
   - [ ] Instance-Based Versus Model-Based Learning
-- [ ] **Main Challenges of Machine Learning**
+- [✔️] **Main Challenges of Machine Learning**
   - [ ] Insufficient Quantity of Training Data
   - [ ] Nonrepresentative Training Data
   - [ ] Poor-Quality Data
@@ -96,15 +96,15 @@ Each chapter links to its own **notes** and **exercises**:
   - [ ] Underfitting the Training Data
   - [ ] Deployment Issues
   - [ ] Stepping Back
-- [ ] **Testing and Validating**
+- [✔️] **Testing and Validating**
   - [ ] Hyperparameter Tuning and Model Selection
   - [ ] Data Mismatch
-- [ ] **Exercises**
-- [ ] **Notes written**
+- [✔️] **Exercises**
+- [✔️] **Notes written**
 
 #### Chapter 2: End-to-End Machine Learning Project
 
-📝 [Notes](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2002%20-%20End-to-End%20Machine%20Learning%20Project/notes.md) · 💻 [Exercises](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2002%20-%20End-to-End%20Machine%20Learning%20Project/exercises.ipynb)
+📝 [Notes](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2002%20-%20End-to-End%20Machine%20Learning%20Project/notes.md) · 💻 [Exercises](PART%20I%20-%20The%20Fundamentals%20of%20Machine%20Learning/Chapter%2002%20-%20End-to-End%20Machine%20Learning%20Project/exercises.ipynb) 👈 Current chapter
 
 - [ ] **Working with Real Data**
 - [ ] **Look at the Big Picture**
